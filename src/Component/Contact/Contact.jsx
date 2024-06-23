@@ -1,4 +1,5 @@
 import React from "react";
+import github from "./317712_code repository_github_repository_resource_icon.png";
 
 function Contact() {
   return (
@@ -137,6 +138,19 @@ function Contact() {
                 <img
                   align="center"
                   src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
+                  alt="ja8379by"
+                  height="30"
+                  width="40"
+                />
+              </a>
+              <a
+                className=" w-12 h-12"
+                href="https://github.com/Pushpa-rajput9"
+                target="_blank"
+              >
+                <img
+                  align="center"
+                  src={github}
                   alt="ja8379by"
                   height="30"
                   width="40"
