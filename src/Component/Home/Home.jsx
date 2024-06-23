@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="  mt-[95px]">
       <img src={image1} className=" w-full h-[550px]"></img>
-      <div className=" w-full  absolute bottom-40  z-10 pl-14 ">
+      <div className=" w-full  relative bottom-40  z-10 pl-14 ">
         <a
           href={resume}
           target="_blank"
