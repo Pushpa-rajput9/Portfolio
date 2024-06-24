@@ -2,7 +2,7 @@ import mysql from "./1012821_code_development_logo_mysql_icon.png";
 import resume from "../Home/assets/Pushpa Rajput.pdf";
 function About() {
   return (
-    <div className=" bg-gray-100">
+    <div className=" bg-gray-200">
       <div className="flex w-full justify-center items-center relative bottom-7   z-10 ">
         <button className=" bottom-7 sticky w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           About Me
@@ -10,11 +10,11 @@ function About() {
       </div>
       <div className=" mainContainer w-full flex  justify-center items-center">
         <div className="w-3/4">
-          <h1 className=" text-4xl pb-5 underline font-bold text-blue-500">
+          <h1 className=" lg:text-4xl pb-5 underline font-bold text-blue-500 max-sm:text-2xl">
             A bit about me
           </h1>
           <div className="w-full flex justify-center items-center pl-8 pr-8">
-            <p className="text-xl pl-8 pr-8 decoration-from-font text-gray-700 ">
+            <p className="lg:text-xl lg:pl-8 lg:pr-8 max-sm:pl-2 max-sm:pr-2 decoration-from-font text-gray-700   max-sm:text-[18px]">
               A BCA graduate, thrive to work on Web Development and its advanced
               solutions, while applying technical and functional knowledge in
               the process. Looking out for ground-breaking success in leading
@@ -28,16 +28,16 @@ function About() {
               development.
             </p>
           </div>
-          <h4 className="mt-12 text-4xl font-bold text-blue-500 underline">
+          <h4 className="mt-12 lg:text-4xl font-bold text-blue-500 underline max-sm:text-2xl">
             Technologies and Tools
           </h4>
-          <p className="mt-4 text-xl text-justify text-gray-700">
+          <p className="mt-4 lg:text-xl text-justify text-gray-700 max-sm:text-[18px]">
             Using a combination of cutting-edge technologies and reliable
             open-source software I build user-focused, performant apps and
             websites for smartphones, tablets, and desktops.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-between">
+          <div className="mt-8 flex flex-wrap justify-between lg:pb-0 max-sm:pb-10 ">
             <div className="c py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg transform-none opacity-100 flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
               <img
                 alt=""

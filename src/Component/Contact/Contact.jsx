@@ -3,23 +3,23 @@ import github from "./317712_code repository_github_repository_resource_icon.png
 
 function Contact() {
   return (
-    <div className=" bg-gray-100 sticky top-0">
+    <div className=" bg-gray-200 ">
       <div className="flex w-full justify-center items-center relative bottom-7  z-10 ">
         <button className=" w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           Contact Me
         </button>
       </div>
-      <div className="mid flex justify-center items-center">
-        <div className="left w-2/4 flex flex-col  p-20">
-          <h1 className=" text-4xl pb-5 underline font-bold text-blue-500">
+      <div className="mid flex flex-col flex-wrap  justify-center items-center">
+        <div className="left w-2/4 flex flex-wrap flex-col  lg:p-20 max-sm:p-0">
+          <h1 className=" lg:text-4xl max-sm:text-2xl pb-5 underline font-bold text-blue-500">
             Connect With me
           </h1>
-          <p className="text-xl  decoration-from-font text-gray-700 mb-6">
+          <p className="lg:text-xl max-sm:text-sm  decoration-from-font text-gray-700 mb-6">
             If you want to know more about me or my work, or if you would just
             like to say hello, send me a message. I&apos;d love to hear from
             you.
           </p>
-          <form encType="get">
+          <form method="get">
             <label className=" text-lg ">Name</label>
             <br />
             <input
@@ -58,7 +58,7 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className="right w-2/4 flex flex-col items-end  p-20">
+        <div className="right w-2/4 flex flex-col items-end  lg:p-20 max-sm:p-0">
           <div className="top m-8 w-64">
             <h1 className=" font-bold text-5xl decoration-from-font mb-5">
               Email

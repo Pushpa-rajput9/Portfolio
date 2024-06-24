@@ -1,10 +1,14 @@
+import { useState } from "react";
 import myimage from "./WhatsApp Image 2024-06-21 at 12.17.03 PM.jpeg";
-import { Link, NavLink } from "react-router-dom";
+import humburger from "./hambrger.png";
+import { NavLink } from "react-router-dom";
 function Header() {
+  const [menu, setmenu] = useState(false);
+
   return (
     <div>
       <nav className=" flex bg-slate-400  p-1 shadow-2xl rounded shadow-black fixed top-0 w-full ">
-        <div id="left" className="flex justify-center w-52">
+        <div id="left" className="flex justify-center lg:w-52 sm:w-fit">
           <img
             src={myimage}
             className=" w-20 h-20 rounded-full border-4 border-teal-800 "
@@ -12,7 +16,7 @@ function Header() {
         </div>
         <div
           id="right"
-          className=" flex items-center justify-end gap-20 w-full"
+          className="  max-sm:hidden flex items-center justify-end lg:gap-20 sm:gap-8 w-full"
         >
           <NavLink
             to="/"
@@ -55,7 +59,34 @@ function Header() {
             Contact
           </NavLink>
         </div>
+
+        <div className="rigtmost flex pr-10 justify-end items-center w-full  md:hidden lg:hidden  ">
+          <div className="w-fit">
+            <img
+              onClick={() => setmenu(!menu)}
+              className=" flex  justify-end items-center"
+              src={humburger}
+              alt="error"
+              height="30px"
+              width="30px"
+            />
+          </div>
+        </div>
       </nav>
+      <div
+        className={
+          menu
+            ? " items-end  flex  justify-end  fixed top-16 z-10 mr-36  pr-20 transition delay-1000 text-gray-900 w-full h-24 "
+            : "hidden"
+        }
+      >
+        <div className=" bg-white rounded shadow-inner shadow-black text-lg pl-2 justify-center font-semibold flex flex-col w-32 h-32">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/project">Project</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+        </div>
+      </div>
     </div>
   );
 }

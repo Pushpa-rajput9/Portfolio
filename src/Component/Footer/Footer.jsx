@@ -3,15 +3,15 @@ function Footer() {
   return (
     <div>
       <section>
-        <footer className="flex justify-center items-center  shadow-inner shadow-black bg-slate-400 h-24 gap-48">
-          <p className="flex justify-start items-center gap-20">
+        <footer className="flex lg:gap-24  sm:gap-10 lg:flex-row sm:flex-col  shadow-inner shadow-black bg-slate-400 h-24  sm:h-fit sm:w-full  sm:flex sm:flex-wrap">
+          <p className="flex justify-start items-start text-start ">
             Copyright @ 2024 LOGO, All rights reserved.
           </p>
           <div>
             <h1 className=" font-semiboldm text-lg underline mb-4">
               Connect with me
             </h1>
-            <ul className="flex justify-center items-center gap-24">
+            <ul className="flex justify-start items-center  lg:gap-24 sm:gap-10">
               <li type="none">
                 <a href="https://github.com/Pushpa-rajput9" target="_blank">
                   <i className="fa-brands fa-github"></i>
