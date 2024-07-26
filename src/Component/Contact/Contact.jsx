@@ -9,7 +9,7 @@ function Contact() {
           Contact Me
         </button>
       </div>
-      <div className="mid flex flex-col flex-wrap  justify-center items-center">
+      <div className="mid flex justify-center items-center max-sm:flex  max-sm:flex-col max-sm:items-center max-sm:justify-center">
         <div className="left w-2/4 flex flex-wrap flex-col  lg:p-20 max-sm:p-0">
           <h1 className=" lg:text-4xl max-sm:text-2xl pb-5 underline font-bold text-blue-500">
             Connect With me
@@ -19,10 +19,16 @@ function Contact() {
             like to say hello, send me a message. I&apos;d love to hear from
             you.
           </p>
-          <form method="get">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="15c123b3-0331-49f4-ac60-7f03c8f7b376"
+            />
             <label className=" text-lg ">Name</label>
             <br />
             <input
+              name="Name"
               className="pl-3 mt-3 mb-5 bg-slate-800 text-white w-full h-12 rounded-xl "
               type="text"
               placeholder="Enter your name"
@@ -31,6 +37,7 @@ function Contact() {
             <label className=" text-lg">Email</label>
             <br />
             <input
+              name="Email"
               className=" mt-3 mb-5 pl-3 bg-slate-800 text-white w-full h-12 rounded-xl "
               type="email"
               placeholder="XYZW@example.com"
@@ -39,6 +46,7 @@ function Contact() {
             <label className=" text-lg">Message</label>
             <br />
             <textarea
+              name="Message"
               className="mt-3  flex text-start pl-3 bg-slate-800 text-white w-full h-40 rounded-xl "
               type="text"
               placeholder="Enter your message here"
@@ -52,8 +60,11 @@ function Contact() {
             </a>
 
             <div className="flex w-full justify-end items-center">
-              <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                <a href="mailto:pr4541285@gmail.com">Submit</a>
+              <button
+                formTarget="_blank"
+                className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400"
+              >
+                Submit
               </button>
             </div>
           </form>
