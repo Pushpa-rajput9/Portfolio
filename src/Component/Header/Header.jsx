@@ -2,6 +2,8 @@ import { useState } from "react";
 import myimage from "./WhatsApp Image 2024-06-21 at 12.17.03 PM.jpeg";
 import humburger from "./hambrger.png";
 import { NavLink } from "react-router-dom";
+import image1 from "../Home/assets/img.gif";
+import resume from "../Home/assets/Pushpa Rajput.pdf";
 function Header() {
   const [menu, setmenu] = useState(false);
 
@@ -85,6 +87,18 @@ function Header() {
           <NavLink to="/about">About</NavLink>
           <NavLink to="/project">Project</NavLink>
           <NavLink to="/contact">Contact</NavLink>
+        </div>
+      </div>
+      <div className=" ">
+        <img src={image1} className=" w-full h-[550px]"></img>
+        <div className=" w-full  relative bottom-40  z-10 pl-14 ">
+          <a
+            href={resume}
+            target="_blank"
+            className="flex justify-center items-center w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-white shadow-2xl shadow-black "
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>

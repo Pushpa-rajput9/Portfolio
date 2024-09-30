@@ -13,6 +13,7 @@ import { Home, About, Contact, Projects } from "./Component/Index";
 const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="project" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
