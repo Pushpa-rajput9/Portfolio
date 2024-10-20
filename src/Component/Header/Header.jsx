@@ -82,11 +82,16 @@ function Header() {
             : "hidden"
         }
       >
-        <div className=" bg-white rounded shadow-inner shadow-black text-lg pl-2 justify-center font-semibold flex flex-col w-32 h-32">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/project">Project</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+        <div className=" bg-white rounded shadow-inner shadow-black text-lg pl-2 justify-center font-semibold flex  w-32 h-32">
+          <div className="font-semibold flex flex-col">
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/project">Project</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+          </div>
+          <div onClick={() => setmenu(!menu)} className="cursor-pointer ">
+            ❌
+          </div>
         </div>
       </div>
       <div className=" ">
