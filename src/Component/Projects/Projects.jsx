@@ -6,7 +6,7 @@ function Projects() {
           My Projects
         </button>
       </div>
-      <div className="main pl-24 pr-24 max-sm:p-2">
+      <div className="main pl-24 pr-24 max-sm:p-2 mb-20">
         <div className="flex flex-wrap gap-20 max-sm:flex max-sm:flex-col max-sm:gap-5">
           <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
             <a

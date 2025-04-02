@@ -8,7 +8,7 @@ function About() {
           About Me
         </button>
       </div>
-      <div className=" mainContainer w-full flex  justify-center items-center">
+      <div className=" mainContainer w-full flex  justify-center items-center mb-20 max-sm:p-2">
         <div className="w-3/4 max-sm:w-full max-sm:p-2">
           <h1 className=" lg:text-4xl pb-5  underline font-bold text-blue-500 max-sm:text-2xl ">
             A bit about me

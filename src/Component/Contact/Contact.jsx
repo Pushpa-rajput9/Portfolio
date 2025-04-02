@@ -4,13 +4,13 @@ import github from "./317712_code repository_github_repository_resource_icon.png
 function Contact() {
   return (
     <div className=" bg-gray-200  ">
-      <div className="flex w-full justify-center items-center ">
+      <div className="flex w-full justify-center items-center  ">
         <button className=" w-60 relative bottom-20 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           Contact Me
         </button>
       </div>
       <div className="mid flex justify-center items-center max-sm:flex  max-sm:flex-col max-sm:items-center max-sm:justify-center">
-        <div className="left w-2/4 max-sm:w-full flex flex-wrap flex-col  lg:p-20">
+        <div className="left w-2/4 max-sm:w-full flex flex-wrap flex-col  lg:p-20 max-sm:p-2">
           <h1 className=" lg:text-4xl max-sm:text-2xl pb-5 underline font-bold text-blue-500  max-sm:p-2">
             Connect With me
           </h1>
