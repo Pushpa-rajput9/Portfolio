@@ -3,23 +3,27 @@ import github from "./317712_code repository_github_repository_resource_icon.png
 
 function Contact() {
   return (
-    <div className=" bg-gray-200 ">
-      <div className="flex w-full justify-center items-center relative bottom-7  z-10 ">
-        <button className=" w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
+    <div className=" bg-gray-200  ">
+      <div className="flex w-full justify-center items-center ">
+        <button className=" w-60 relative bottom-20 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           Contact Me
         </button>
       </div>
       <div className="mid flex justify-center items-center max-sm:flex  max-sm:flex-col max-sm:items-center max-sm:justify-center">
-        <div className="left w-2/4 flex flex-wrap flex-col  lg:p-20 max-sm:p-0">
-          <h1 className=" lg:text-4xl max-sm:text-2xl pb-5 underline font-bold text-blue-500">
+        <div className="left w-2/4 max-sm:w-full flex flex-wrap flex-col  lg:p-20">
+          <h1 className=" lg:text-4xl max-sm:text-2xl pb-5 underline font-bold text-blue-500  max-sm:p-2">
             Connect With me
           </h1>
-          <p className="lg:text-xl max-sm:text-sm  decoration-from-font text-gray-700 mb-6">
+          <p className="lg:text-xl max-sm:text-sm  decoration-from-font text-gray-700 mb-6  max-sm:p-2">
             If you want to know more about me or my work, or if you would just
             like to say hello, send me a message. I&apos;d love to hear from
             you.
           </p>
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            className=" bg-gray-300 w-full  max-sm:p-2 max-sm:pb-5 p-5"
+          >
             <input
               type="hidden"
               name="access_key"
@@ -53,13 +57,13 @@ function Contact() {
             />
             <br />
             <a
-              className="mt-5 underline mr-10"
+              className="mt-5 underline mr-10 max-sm:mb-4"
               href="mailto:pr4541285@gmail.com"
             >
               Send me email directly
             </a>
 
-            <div className="flex w-full justify-end items-center">
+            <div className="flex w-full justify-end items-center max-sm:mt-7">
               <button
                 formTarget="_blank"
                 className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400"
@@ -69,17 +73,17 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className="right w-2/4 flex flex-col items-end  lg:p-20 max-sm:p-0">
-          <div className="top m-8 w-64">
-            <h1 className=" font-bold text-5xl decoration-from-font mb-5">
+        <div className="right w-2/4 max-sm:w-full flex flex-col items-center  max-sm:p-5">
+          <div className="top m-8 w-64 max-sm:mb-4">
+            <h1 className=" font-bold text-5xl max-sm:text-3xl  decoration-from-font mb-5">
               Email
             </h1>
             <p className="text-lg text-blue-700 font-semibold">
               pr4541285@gamil.com
             </p>
           </div>
-          <div className="mid m-8 w-64">
-            <h1 className=" font-bold text-5xl decoration-from-font mb-5">
+          <div className="mid m-8 w-64 max-sm:mb-4">
+            <h1 className=" font-bold text-5xl max-sm:text-3xl decoration-from-font mb-5">
               Address
             </h1>
             <p className="text-lg text-blue-700 font-semibold">
@@ -89,11 +93,11 @@ function Contact() {
             </p>
           </div>
 
-          <div className="last m-8 w-64">
-            <h1 className=" font-bold text-5xl decoration-from-font mb-5">
+          <div className="last m-8 w-64 max-sm:mb-4">
+            <h1 className=" font-bold text-5xl max-sm:text-3xl decoration-from-font mb-5">
               Social
             </h1>
-            <div className="flex  gap-5 flex-wrap w-64">
+            <div className="flex  gap-5  flex-wrap w-64">
               <a
                 href="https://linkedin.com/in/pushpa-rajput-3ba4491a0"
                 target="_blank"

@@ -1,14 +1,14 @@
 function Projects() {
   return (
     <div className=" bg-gray-200">
-      <div className="flex w-full justify-center items-center relative bottom-7  z-10 ">
-        <button className=" w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
+      <div className="flex w-full justify-center items-center ">
+        <button className=" w-60 h-16 border-b-4 relative bottom-20 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           My Projects
         </button>
       </div>
-      <div className="main pl-24 pr-24">
-        <div className="flex flex-wrap gap-20">
-          <div className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8">
+      <div className="main pl-24 pr-24 max-sm:p-2">
+        <div className="flex flex-wrap gap-20 max-sm:flex max-sm:flex-col max-sm:gap-5">
+          <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
             <a
               target="_blank"
               href=" https://pushpa-rajput9.github.io/AmazonClone/"
@@ -55,7 +55,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8">
+          <div className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
             <a
               target="_blank"
               href="https://pushpa-rajput9.github.io/Calculator/"

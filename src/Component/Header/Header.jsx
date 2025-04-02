@@ -3,13 +3,13 @@ import myimage from "./WhatsApp Image 2024-06-21 at 12.17.03 PM.jpeg";
 import humburger from "./hambrger.png";
 import { NavLink } from "react-router-dom";
 import image1 from "../Home/assets/img.gif";
-import resume from "../Home/assets/Pushpa Rajput.pdf";
+import resume from "../Home/assets/PUSHPA RAJPUT (2).pdf";
 function Header() {
   const [menu, setmenu] = useState(false);
 
   return (
     <div>
-      <nav className=" flex bg-slate-400  p-1 shadow-2xl rounded shadow-black fixed top-0 w-full ">
+      <nav className=" flex bg-slate-400  p-1  rounded relative top-0 w-full ">
         <div id="left" className="flex justify-center lg:w-52 sm:w-fit">
           <img
             src={myimage}
@@ -78,29 +78,34 @@ function Header() {
       <div
         className={
           menu
-            ? " items-end  flex  justify-end  fixed top-16 z-10 mr-36  pr-20 transition delay-1000 text-gray-900 w-full h-24 "
+            ? " items-end  flex   bg-white transition delay-1000 text-gray-900 w-full h-24 mt-5 mb-4 "
             : "hidden"
         }
       >
-        <div className=" bg-white rounded shadow-inner shadow-black text-lg pl-2 justify-center font-semibold flex  w-32 h-32">
+        <div className="text-lg pl-3 justify-center font-semibold flex  ">
           <div className="font-semibold flex flex-col">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/project">Project</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-          </div>
-          <div onClick={() => setmenu(!menu)} className="cursor-pointer ">
-            ❌
+            <NavLink to="/" onClick={() => setmenu(!menu)}>
+              Home
+            </NavLink>
+            <NavLink to="/about" onClick={() => setmenu(!menu)}>
+              About
+            </NavLink>
+            <NavLink to="/project" onClick={() => setmenu(!menu)}>
+              Project
+            </NavLink>
+            <NavLink to="/contact" onClick={() => setmenu(!menu)}>
+              Contact
+            </NavLink>
           </div>
         </div>
       </div>
       <div className=" ">
-        <img src={image1} className=" w-full h-[550px]"></img>
-        <div className=" w-full  relative bottom-40  z-10 pl-14 ">
+        <img src={image1} className=" w-full h-[550px] max-sm:h-[400px]"></img>
+        <div className=" w-full max-sm:p-2   pl-14 bg-gray-200 ">
           <a
             href={resume}
             target="_blank"
-            className="flex justify-center items-center w-60 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-white shadow-2xl shadow-black "
+            className="flex justify-center items-center w-60 h-16 max-sm:w-32 max-sm:h-10 relative bottom-28 max-sm:text-sm border-b-4  border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-white shadow-2xl shadow-black "
           >
             Resume
           </a>
