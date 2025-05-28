@@ -3,7 +3,7 @@ import myimage from "./WhatsApp Image 2024-06-21 at 12.17.03 PM.jpeg";
 import humburger from "./hambrger.png";
 import { NavLink } from "react-router-dom";
 import image1 from "../Home/assets/img.gif";
-import resume from "../Home/assets/PUSHPA RAJPUT (2).pdf";
+import resume from "./PUSHPA RAJPUT (8).pdf";
 function Header() {
   const [menu, setmenu] = useState(false);
 
@@ -18,7 +18,7 @@ function Header() {
         </div>
         <div
           id="right"
-          className="  max-sm:hidden flex items-center justify-end lg:gap-20 sm:gap-8 w-full"
+          className="  max-[904px]:hidden flex items-center justify-end lg:gap-20 sm:gap-8 w-full"
         >
           <NavLink
             to="/"
@@ -62,7 +62,7 @@ function Header() {
           </NavLink>
         </div>
 
-        <div className="rigtmost flex pr-10 justify-end items-center w-full  md:hidden lg:hidden  ">
+        <div className="rigtmost flex pr-10 justify-end items-center w-full min-[904px]:hidden lg:hidden  ">
           <div className="w-fit">
             <img
               onClick={() => setmenu(!menu)}

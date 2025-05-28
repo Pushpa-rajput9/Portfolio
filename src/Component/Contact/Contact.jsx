@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className=" bg-gray-200  ">
       <div className="flex w-full justify-center items-center  ">
-        <button className=" w-60 relative bottom-20 h-16 border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
+        <button className=" w-60 relative bottom-20  max-md:w-52 h-12 max-md:text-lg border-b-4 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           Contact Me
         </button>
       </div>

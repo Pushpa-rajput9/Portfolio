@@ -2,12 +2,106 @@ function Projects() {
   return (
     <div className=" bg-gray-200">
       <div className="flex w-full justify-center items-center ">
-        <button className=" w-60 h-16 border-b-4 relative bottom-20 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
+        <button className=" w-60  max-md:w-52 h-12 max-md:text-lg border-b-4 relative bottom-20 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           My Projects
         </button>
       </div>
       <div className="main pl-24 pr-24 max-sm:p-2 mb-20">
         <div className="flex flex-wrap gap-20 max-sm:flex max-sm:flex-col max-sm:gap-5">
+          <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
+            <a target="_blank" href="https://jaipurmusicstage.com/">
+              <img
+                className="rounded-t-lg w-full"
+                src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <a target="_blank" href="https://jaipurmusicstage.com/">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Jaipur Music Stage – Fullstack Web Application (during
+                  internship)
+                </h5>
+              </a>
+
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Developed a responsive full-stack web app using React.js,
+                Tailwind CSS, and React Router DOM for smooth navigation. The
+                backend, built with Node.js and Express.js, efficiently handled
+                server-side operations. Integrated Nodemailer for email
+                notifications and used MariaDB for event data management.
+              </p>
+              <a
+                target="_blank"
+                href=" https://jaipurmusicstage.com/"
+                className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  className="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
+            <a
+              target="_blank"
+              href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+            >
+              <img
+                className="rounded-t-lg w-full"
+                src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <a
+                target="_blank"
+                href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+              >
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Ticket Booking System
+                </h5>
+              </a>
+
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Developed a full-stack Ticket Booking web app using React.js,
+                Tailwind CSS,Context-API and React Router DOM for smooth
+                navigation. The backend, built with Node.js and Express.js,
+                efficiently handled server-side operations.Integrated{" "}
+                <b>Payment Gateway</b>. Integrated Nodemailer for email
+                notifications and used MariaDB for event data management.
+              </p>
+              <a
+                target="_blank"
+                href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+                className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  className="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
           <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
             <a
               target="_blank"

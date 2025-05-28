@@ -4,29 +4,50 @@ function About() {
   return (
     <div className=" bg-gray-200">
       <div className="flex w-full justify-center items-center    ">
-        <button className=" w-60 h-16 border-b-4 relative bottom-20 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
+        <button className=" w-60 max-md:w-52 h-12 max-md:text-lg border-b-4 relative bottom-20 border-r-2 font-bold border-slate-950 rounded-3xl text-xl bg-amber-500 shadow-2xl shadow-black ">
           About Me
         </button>
       </div>
-      <div className=" mainContainer w-full flex  justify-center items-center mb-20 max-sm:p-2">
+      <div className=" mainContainer w-full flex  justify-center items-center mb-20 max-sm:p-0">
         <div className="w-3/4 max-sm:w-full max-sm:p-2">
           <h1 className=" lg:text-4xl pb-5  underline font-bold text-blue-500 max-sm:text-2xl ">
             A bit about me
           </h1>
-          <div className="w-full flex justify-center items-center pl-8 pr-8 max-sm:p-2">
+          <div className="w-full flex flex-col justify-center items-center pl-8 pr-8 max-sm:p-4">
             <p className="lg:text-xl lg:pl-8 lg:pr-8  decoration-from-font text-gray-700 text-justify   max-sm:text-[18px]">
-              A BCA graduate, thrive to work on Web Development and its advanced
-              solutions, while applying technical and functional knowledge in
-              the process. Looking out for ground-breaking success in leading
-              full spectrum of Web Development. Demonstrate high logical and
-              application skills and maintaining positive relationships with
-              colleagues, clients as well as corporate partners. I take into
-              consideration the user experience while writing reusable and
-              efficient code. I passionately combine good design, technology,
-              and innovation in all my projects, which I like to accompany from
-              the first idea to release.Currently, I am focused on the backend
-              development.
+              A passionate Full-Stack Web Developer with a BCA degree, skilled
+              in React.js, Node.js, Express, MongoDB, and SQL. Experienced in
+              designing and developing responsive, dynamic web applications,
+              optimizing performance, and ensuring seamless user experiences.
+              Proficient in JavaScript, C++, and Java, with a strong grasp of
+              modern frameworks like Tailwind CSS and Bootstrap. Enthusiastic
+              about problem-solving, collaboration, and continuous learning.
             </p>
+            <p className="lg:text-xl mt-5 lg:pl-8 lg:pr-8  decoration-from-font text-gray-700 text-justify   max-sm:text-[18px]">
+              I recently completed a *6-month internship at Teamwork Arts Pvt
+              Ltd* as a Website Intern, where I collaborated with the design
+              team to build visually appealing and responsive websites. During
+              this experience, I worked extensively on *React.js, JavaScript,
+              and CSS, focusing on improving **website performance* and
+              optimizing *page loading speed*.
+            </p>
+            <ul className="lg:text-xl list-disc mt-5 lg:pl-8 lg:pr-8  decoration-from-font text-gray-700 text-justify   max-sm:text-[18px]">
+              Throughout my journey, I have built and deployed several projects,
+              including: -
+              <li className="lg:text-xl list-disc  mt-3 lg:pl-8 lg:pr-8  decoration-from-font text-gray-700 text-justify   max-sm:text-[18px]">
+                *Jaipur Music Stage – Fullstack Web Application, where I
+                developed a dynamic music platform with **React.js, Node.js,
+                Express, and MariaDB. The application features **pagination,
+                filtering, and search functionality* while ensuring full
+                responsiveness.
+              </li>
+              <li className="lg:text-xl list-disc  mt-3 lg:pl-8 lg:pr-8  decoration-from-font text-gray-700 text-justify   max-sm:text-[18px]">
+                {" "}
+                I also created an *Admin Panel* for Jaipur Music Stage, which
+                enables *dynamic content management* for easy modification,
+                addition, and deletion of website content.
+              </li>
+            </ul>
           </div>
           <h4 className="mt-12 lg:text-4xl font-bold text-blue-500 underline max-sm:text-2xl">
             Technologies and Tools
@@ -38,7 +59,7 @@ function About() {
           </p>
 
           <div className="mt-8 flex flex-wrap max-sm:gap-2 justify-between lg:pb-0 max-sm:pb-10 ">
-            <div className="c py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 max-sm:m-0 max-sm:p-0 max-sm:w-36 rounded-lg transform-none opacity-100 flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+            <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 max-sm:m-0 max-sm:p-0 max-sm:w-36 rounded-lg transform-none opacity-100 flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
               <img
                 alt=""
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"
