@@ -55,7 +55,7 @@ function Projects() {
           <div className="max-w-xl  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 max-sm:my-4">
             <a
               target="_blank"
-              href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+              href="https://main.d2q7gkbafr55vw.amplifyapp.com"
             >
               <img
                 className="rounded-t-lg w-full"
@@ -66,7 +66,7 @@ function Projects() {
             <div className="p-5">
               <a
                 target="_blank"
-                href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+                href="https://main.d2q7gkbafr55vw.amplifyapp.com"
               >
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Ticket Booking System
@@ -83,7 +83,7 @@ function Projects() {
               </p>
               <a
                 target="_blank"
-                href="https://pushpa-rajput9.github.io/Ticket-booking-/"
+                href="https://main.d2q7gkbafr55vw.amplifyapp.com"
                 className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
               >
                 Read more
